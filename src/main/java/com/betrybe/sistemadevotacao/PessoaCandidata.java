@@ -5,6 +5,7 @@ public class PessoaCandidata extends Pessoa {
   private int votos;
 
   public PessoaCandidata(String nome, int numero) {
+    /* Javadoc */
     super.setNome(nome);
     this.numero = numero;
     this.votos = 0;
