@@ -12,6 +12,7 @@ public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
   /**
    * GerenciamentoVotação.
    */
+
   public GerenciamentoVotacao() {
     this.pessoasCandidatas = new ArrayList<>();
     this.pessoasEleitoras = new ArrayList<>();
