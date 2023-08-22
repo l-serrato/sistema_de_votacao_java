@@ -4,9 +4,9 @@ public class PessoaCandidata extends Pessoa {
   private int numero;
   private int votos;
 
-  /** Javadoc
-   * don't know what I am supposed to write here
-   * but apparently, I have to write something
+  /** Javadoc.
+   * don't know what I am supposed to write here.
+   * but apparently, I have to write something.
    * */
   public PessoaCandidata(String nome, int numero) {
     super.setNome(nome);
