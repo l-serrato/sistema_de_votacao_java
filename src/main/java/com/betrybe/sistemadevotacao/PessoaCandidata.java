@@ -5,9 +5,9 @@ public class PessoaCandidata extends Pessoa {
   private int votos;
 
   /** Javadoc.
-   * don't know what I am supposed to write here.
-   * but apparently, I have to write something.
-   * */
+   * Parametro.
+   * Param.
+   */
   public PessoaCandidata(String nome, int numero) {
     super.setNome(nome);
     this.numero = numero;
@@ -31,6 +31,6 @@ public class PessoaCandidata extends Pessoa {
   }
 
   public void receberVoto() {
-    votos++;
+    this.votos++;
   }
 }
